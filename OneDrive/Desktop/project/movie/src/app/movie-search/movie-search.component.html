@@ -1,0 +1,12 @@
+
+<h2>Search Movies</h2> 
+<input type="text" (input)="onSearch($event)" placeholder="Search for a movie">
+
+<table>
+  <tr *ngFor="let movie of filteredMovies">
+    <td>{{ movie.name }}</td>
+    <td><button (click)="goToMovieDetails(movie.id)">View Details</button></td>
+  </tr>
+</table>
+
+<button (click)="goHome()">Back to Home</button>
