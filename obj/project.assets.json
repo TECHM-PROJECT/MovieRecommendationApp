@@ -4886,11 +4886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanithasri\\OneDrive\\Desktop\\MovieRecommendationApp\\MovieAppBackend\\MovieAppBackend.csproj",
+      "projectUniqueName": "C:\\Users\\vanithasri\\MovieRecommendationApp\\MovieAppBackend.csproj",
       "projectName": "MovieAppBackend",
-      "projectPath": "C:\\Users\\vanithasri\\OneDrive\\Desktop\\MovieRecommendationApp\\MovieAppBackend\\MovieAppBackend.csproj",
+      "projectPath": "C:\\Users\\vanithasri\\MovieRecommendationApp\\MovieAppBackend.csproj",
       "packagesPath": "C:\\Users\\vanithasri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanithasri\\OneDrive\\Desktop\\MovieRecommendationApp\\MovieAppBackend\\obj\\",
+      "outputPath": "C:\\Users\\vanithasri\\MovieRecommendationApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vanithasri\\AppData\\Roaming\\NuGet\\NuGet.Config"

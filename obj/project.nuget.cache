@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rCmIwPT+kxs=",
+  "dgSpecHash": "2V3APA6IdCk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanithasri\\OneDrive\\Desktop\\MovieRecommendationApp\\MovieAppBackend\\MovieAppBackend.csproj",
+  "projectFilePath": "C:\\Users\\vanithasri\\MovieRecommendationApp\\MovieAppBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanithasri\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\vanithasri\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
