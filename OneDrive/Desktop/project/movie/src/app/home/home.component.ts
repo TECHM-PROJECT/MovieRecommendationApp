@@ -9,12 +9,10 @@ import { Router } from '@angular/router';
 export class HomeComponent {
   constructor(private router: Router) {}
 
-  goToMovies() {
-    this.router.navigate(['/movies']);
-  }
-
-  goToSearch() {
-    this.router.navigate(['/search']);
+  login() {
+    
+    // Navigate to movie list after login
+    this.router.navigate(['/login']);
   }
 
   goToSignup() {

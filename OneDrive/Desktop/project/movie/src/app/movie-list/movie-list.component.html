@@ -1,65 +1,22 @@
-<!-- <h2>Movie List</h2>
-<ul>
-  <li>Interstellar</li>
-  <li>Inception</li>
-  <li>The Dark Knight</li>
-  <li>Avatar</li>
-</ul>
-<button (click)="goToHome()">Back to Home</button>
-
-<h2>Movie List</h2> -->
-
-<!-- Genre Dropdown -->
-<!-- <label for="genre">Filter by Genre:</label>
-<select id="genre" (change)="filterMovies($event)">
-  <option value="All">All</option> Default option -->
-  <!-- <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
-</select> -->
-
-
-<!-- Movie List -->
-<!-- <ul>
-  <li *ngFor="let movie of filteredMovies">
-    <h3>{{ movie.title }}</h3>
-    <p>Genre: {{ movie.genre }}</p>
-    <button (click)="viewMovieDetails(movie)">View Details</button>
-  </li>
-</ul> -->
-
-<!-- Back to Home Button -->
-<!-- <button (click)="goToHome()">Back to Home</button> -->
-
-<!-- <h2>Movie List</h2>
-<ul>
-  <li>Interstellar</li>
-  <li>Inception</li>
-  <li>The Dark Knight</li>
-  <li>Avatar</li>
-  <li>Titanic</li>
-  <li>Iron Man</li>
-  <li>The Matrix</li>
-</ul> 
-<button (click)="goToHome()">Back to Home</button> ✅ Button to go back -->
 <h2>Movies List</h2>
-<!-- <ul>
-    <li *ngFor="let movie of movies">
-      {{ movie.name }}
-      <button (click)="viewDetails(movie.id)">View Details</button>  -->
-      <!-- ✅ View Details Button -->
-    <!-- </li>
-  </ul> -->
+<!-- buttons -->
+<div>
+  <button style="float: left;" (click)="goToSearch()">Search Movies</button>
+  <button style="float: right;" (click)="goToHome()">Back to Home</button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- movie box -->
+  <div class="movie-container">
+    <div class="movie-card" *ngFor="let movie of movies">
+      <img [src]="movie.image" alt="{{ movie.name }}">
+      <h3>{{ movie.name }}</h3>
+      <button (click)="viewDetails(movie.id)">View Details</button>
+    </div>
+  </div>
   
-  <!-- ✅ Back to Home Button -->
-  <!-- <button (click)="goToHome()">Back to Home</button> -->
-
-  <table>
-    <tr *ngFor="let movie of movies">
-      <td>{{ movie.name }}</td>
-      <td><button (click)="viewDetails(movie.id)">View Details</button></td>
-    </tr>
-  </table>
-  <button (click)="goToHome()">Back to Home</button>
-
   
   
   

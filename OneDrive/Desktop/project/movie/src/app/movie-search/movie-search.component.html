@@ -1,12 +1,20 @@
-
 <h2>Search Movies</h2> 
+<!-- buttons -->
+<div>
+  <button style="float: left;" (click)="goToMovies()">view all Movies</button>
+  <button style="float: right;" (click)="goToHome()">back to home</button>
+</div>
+<!-- search bar -->
 <input type="text" (input)="onSearch($event)" placeholder="Search for a movie">
+<br>
+<br>
+<br>
 
-<table>
-  <tr *ngFor="let movie of filteredMovies">
-    <td>{{ movie.name }}</td>
-    <td><button (click)="goToMovieDetails(movie.id)">View Details</button></td>
-  </tr>
-</table>
-
-<button (click)="goHome()">Back to Home</button>
+<!-- movie box -->
+<div class="movie-container">
+  <div class="movie-card" *ngFor="let movie of filteredMovies">
+    <img [src]="movie.image" alt="{{ movie.name }}">
+    <h3>{{ movie.name }}</h3>
+    <button (click)="goToMovieDetails(movie.id)">View Details</button>
+  </div>
+</div>
